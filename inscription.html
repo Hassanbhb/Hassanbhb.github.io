@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Ileic</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><img src="./imgs/logo.png" alt="Ileic Logo" class="logo" /></li>
+          <li><a href="./index.html">ACCUEIL</a></li>
+          <li><a href="./ecole.html">َL'ECOLE</a></li>
+          <li><a href="./formations.html">FORMATIONS</a></li>
+          <li><a href="./inscription.html">INSCRIPTION EN LIGNE</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="insc">
+      <h1>Reserver votre place</h1>
+    </div>
+    <div class="insc-txt">
+      <p>
+        Accélérez dès maintenant votre processus d'admission en remplissant
+        votre inscription via notre formulaire d’admission en ligne ultra
+        sécurisé.
+      </p>
+    </div>
+    <div class="insc-form">
+      <form>
+        <div>
+          <label for="nom">Nom: </label>
+          <input type="text" />
+        </div>
+        <div>
+          <label for="prenom">Prénom: </label>
+          <input type="text" />
+        </div>
+        <div>
+          <label for="">Date de naissance:</label>
+          <input type="date" />
+        </div>
+        <div>
+          <label for="CIN">CIN :</label>
+          <input type="text" />
+        </div>
+        <div>
+          <label for="NS">Niveau scolaire: </label>
+          <select name="NS" id>
+            <option value="--">--</option>
+            <option value="college">Collége</option>
+            <option value="lycée">Lycée</option>
+            <option value="bac">Bac</option>
+            <option value="faculté">Faculté</option>
+            <option value="Licence">Licence ou plus</option>
+          </select>
+        </div>
+        <div>
+          <label for="diplome">Choix du diplome: </label>
+          <select name="diplome">
+            <option value="--">--</option>
+            <option value="qualification">Qualification:</option>
+            <option value="T">Téchnicien</option>
+            <option value="TS">Téchnicien Spécialisé</option>
+            <option value="LP">Licence professionelle</option>
+            <option value="MP">Master professionelle</option>
+            <option value="CDF">Cértificat de formation</option>
+          </select>
+        </div>
+        <div>
+          <label for="spécialité">Spécialité: </label>
+          <select name="spécialité">
+            <option value="--">--</option>
+            <option value="SR">Systemes & réseau</option>
+            <option value="DI">Dévelopment informatique</option>
+            <option value="TC">Financier comptable</option>
+            <option value="GI">Géstion informatisée</option>
+            <option value="AG">Assiastant en gestion</option>
+            <option value="CM">Comptable</option>
+            <option value="IN">Infographist</option>
+            <option value="AC">Aide comptable</option>
+          </select>
+        </div>
+        <div>
+          <label for="centre">Centre de formation choisi: </label>
+          <select name="centre">
+            <option value="--">--</option>
+            <option value="IA">ILEIC AGADIR</option>
+            <option value="IIN">ILEIC Inzegane</option>
+            <option value="IAM">ILEIC Ait Melloul</option>
+            <option value="ICD">ILEIC Cité Dakhla</option>
+          </select>
+        </div>
+        <div>
+          <label for="tel">N° Téléphone: </label>
+          <input type="tel" placeholder="067-333-5557" />
+        </div>
+        <div>
+          <label for="email">Email: </label>
+          <input type="email" placeholder="example@example.com" />
+        </div>
+        <div>
+          <label for="Message">Message: </label>
+          <textarea name="Message"></textarea>
+        </div>
+
+        <button type="submit">Envoyer</button>
+      </form>
+    </div>
+  </body>
+</html>
